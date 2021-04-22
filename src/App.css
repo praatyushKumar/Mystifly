@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.containerForHeader{
+  display: flex;
+  min-height:10vh;
+  height: 10vh;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-area {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.checkbox-container{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.checkbox-text{
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+.containerForFooter{
+  min-height:10vh;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerForFilters{
+  min-height:70vh;
+  height: 70vh;
+  flex:0.25;
+  overflow: auto;
+  background-color:#ccc;
+  padding-left: 20px;
+  margin-left: 40px;
+}
+.header-text{
+  color:#fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+}  
+.logout-button{
+  color:#fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.checkbox-container{
+  display: flex;
+}
+.copyright-text{
+  color:#fff;
+  font-size: 14px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
